@@ -9,7 +9,7 @@ import {
 } from '@google/genai';
 // require('dotenv').config();
 // const { GoogleGenAI } =require("@google/genai");
-let key=process.env.REACT_APP_AI_API_KEY;
+let key=import.meta.env.VITE_AI_API_KEY;
 
 
 const ai = new GoogleGenAI({ apiKey: key});
