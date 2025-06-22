@@ -12,7 +12,7 @@ import {
 let key=process.env.REACT_AI_API_KEY;
 
 
-const ai = new GoogleGenAI({ apiKey: key});
+const ai = new GoogleGenAI({ apiKey: 'AIzaSyCkZpz1xB1OTUvSIXtUhDupA_PpBJkysxM'});
 
 async function main(msg) {
   const response = await ai.models.generateContent({
