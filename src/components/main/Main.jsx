@@ -17,7 +17,7 @@ const Main = () => {
             {!showResult?<>
              <div className="greet">
                 
-                    <span>Hello, USER.</span>
+                    <span>Hello, User.</span>
                     <p>how can i help u today</p>
                 
             </div>
