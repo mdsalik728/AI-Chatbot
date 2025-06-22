@@ -1,4 +1,4 @@
-const API_KEY="AIzaSyCkZpz1xB1OTUvSIXtUhDupA_PpBJkysxM"
+
 // To run this code you need to install the following dependencies:
 // npm install @google/genai mime
 // npm install -D @types/node
@@ -9,10 +9,10 @@ import {
 } from '@google/genai';
 // require('dotenv').config();
 // const { GoogleGenAI } =require("@google/genai");
-let key=process.env.REACT_AI_API_KEY;
+let key=process.env.REACT_APP_AI_API_KEY;
 
 
-const ai = new GoogleGenAI({ apiKey: 'AIzaSyCkZpz1xB1OTUvSIXtUhDupA_PpBJkysxM'});
+const ai = new GoogleGenAI({ apiKey: key});
 
 async function main(msg) {
   const response = await ai.models.generateContent({
