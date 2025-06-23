@@ -68,7 +68,7 @@ const Main = () => {
                     </div>
                 </div>
                  <p className='bottom-info'>
-                    gemini may display inaccurate info,double check its responses
+                    AI may display inaccurate info,double check its responses.
                 </p>
             </div>
 
