@@ -1,7 +1,4 @@
 
-// To run this code you need to install the following dependencies:
-// npm install @google/genai mime
-// npm install -D @types/node
 
 
 import {
@@ -14,6 +11,7 @@ let key=import.meta.env.VITE_AI_API_KEY;
 
 const ai = new GoogleGenAI({ apiKey: key});
 let chattingHistory={prompt:[]};
+
 async function main(msg){
     if(!chattingHistory.prompt){
     chattingHistory.prompt=[];
