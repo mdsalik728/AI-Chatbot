@@ -20,7 +20,7 @@ const Sidepane = () => {
     return (
     <div className='sidepane'>
         <div className='top'>
-            <img className='menu' onClick={()=>setExtended(prev=>!prev)} src={assets.menu_icon} alt="" />
+            <img className='menu' onClick={()=>setExtended(prev=> !prev)} src={assets.menu_icon} alt="" />
             <div onClick={()=>newChat()} className='new-chat'>
                 <img  src={assets.plus_icon} alt="" />
                 {extended?<p>New Chat</p>:null}

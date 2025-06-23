@@ -5,6 +5,9 @@
     justify-content: space-between;
     background-color:#f0f4f9 ;
     padding: 25px 15px;
+   
+   
+
 }
 .sidepane img{
     width:20px;
@@ -13,6 +16,7 @@
     display:block;
     margin-left: 10px;
     cursor: pointer;
+   
 
 }
 .sidepane .new-chat{
@@ -32,6 +36,7 @@
 .sidepane .recent{
     display:flex;
     flex-direction: column;
+    animation: fadeIn 1.5s;
 
     
 }
@@ -66,4 +71,9 @@
 .sidepane .bottom-item{
     padding-right:10px ;
     cursor: pointer;
+}
+@media(max-width:600px){
+    .sidepane{
+        display:none;
+    }
 }
