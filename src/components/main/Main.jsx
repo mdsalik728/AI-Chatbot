@@ -22,7 +22,7 @@ const Main = () => {
                 
             </div>
             <div className="cards">
-                <div onClick={()=>onSent('Suggest beautiful places to see an upcoming road trip')} className="card">
+                <div onClick={()=>onSent('Suggest beautiful places to see an upcoming road trip in brief')} className="card">
                     <p>Suggest beautiful places to see an upcoming road trip</p>
                     <img src={assets.compass_icon} alt="" />
                 </div>
@@ -30,7 +30,7 @@ const Main = () => {
                     <p>Briefly summarize this concept</p>
                     <img src={assets.bulb_icon} alt="" />
                 </div>
-                 <div onClick={()=>onSent('Brainstorm team bonding activities for our work retreat')} className="card">
+                 <div onClick={()=>onSent('Brainstorm team bonding activities for our work retreat in brief')} className="card">
                     <p>Brainstorm team bonding activities for our work retreat</p>
                     <img src={assets.message_icon} alt="" />
                 </div>
