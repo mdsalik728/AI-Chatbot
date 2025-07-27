@@ -21,7 +21,7 @@ async function main(msg){
     
        let pro=[...oldChats,{
         role:"user",
-        parts:[{text:msg}]
+        parts:[{text:msg +" in  less than 150 words"}]
     }];
     let answer=await getResponse(pro);
      oldChats.push({role:"user",parts:[{text:msg}]});
@@ -37,8 +37,8 @@ async function main(msg){
 
 
 async function getResponse(msg) {
- let b="(in breif in 100 words)";
-  msg=msg+b;
+ 
+  
   const response = await ai.models.generateContent({
     model: "gemini-2.5-flash",
     contents: msg ,
