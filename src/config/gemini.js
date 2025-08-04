@@ -18,7 +18,7 @@ async function main(msg){
      };
   
      let oldChats=chattingHistory.prompt;
-    msg=msg+"in brief";
+    msg=msg+" (in brief) ";
        let pro=[...oldChats,{
         role:"user",
         parts:[{text:msg}]
