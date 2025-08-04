@@ -90,6 +90,7 @@
     justify-content: space-between;
     gap: 20px;
     position:fixed;
+    bottom:0;
     
     background-color: #f0f4f9;
     padding: 10px 20px;
