@@ -21,7 +21,7 @@ async function main(msg){
     
        let pro=[...oldChats,{
         role:"user",
-        parts:[{text:msg +" in  less than 150 words"}]
+        parts:[{text:msg}]
     }];
     let answer=await getResponse(pro);
      oldChats.push({role:"user",parts:[{text:msg}]});
