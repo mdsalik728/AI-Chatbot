@@ -80,6 +80,8 @@
     max-width: 900px;
     padding: 0px 20px;
     margin: auto;
+    position:fixed;
+    
 
 
 }
@@ -89,8 +91,7 @@
     align-items: center;
     justify-content: space-between;
     gap: 20px;
-    position:fixed;
-    bottom:0;
+    
     
     background-color: #f0f4f9;
     padding: 10px 20px;
